@@ -1,1 +1,1 @@
-# blog-da-taverna-theme
+# Tema WordPress para site Blog da Taverna
