@@ -6,6 +6,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 
+
+
+
+
     <?php wp_head(); ?>
 </head>
 <body>
@@ -25,10 +29,23 @@
         
         ?>
 
-        <div>Search</div>
-        <div>Facebook</div>
-        <div>Tweeter</div>
+        <div class="social">
+            <span>Facebook</span>
+            <span>Instagram</span>
+        </div>
+
+        <div class="search">Search</div>
+
+       
     </header>
+
+    <div class="owl-carousel owl-theme">
+        <div class="item"><h4>1</h4></div>
+        <div class="item"><h4>2</h4></div>
+        <div class="item"><h4>3</h4></div>
+        <div class="item"><h4>4</h4></div>
+        <div class="item"><h4>5</h4></div>
+    </div>
 
 
     <?php wp_footer(); ?>

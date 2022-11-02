@@ -1,18 +1,87 @@
 
 body {
     background-color: #eee;
+    font-family: 'Roboto', Arial, Helvetica, sans-serif;
    
 }
 
 header {
     height: 200px;
     background-color: #231307;
+    padding: 10px;
 }
 
 .logo {
     width: 400px;
-    height: 40px;
+    height: 50px;
     background-color: #eee;
     text-align: center;
-    line-height: 40px;
+    line-height: 50px;
+    margin-left: 90px;
+    margin-top: 30px;
 }
+
+.menu-principal {
+    margin-top: 36px;
+    margin-left: 90px;
+    
+}
+
+.menu-principal ul {
+    list-style: none;
+    
+}
+
+.menu-principal li {
+    float: left;
+    background-color: #333;
+}
+
+.menu-principal a {
+    display: inline-block;
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    
+}
+
+.search {
+    color: #fff;
+    background-color: #333;
+    float: right;
+    padding: 10px;
+    margin-right: 50px;
+}
+
+
+.social {
+    color: #fff;
+    background-color: #333;
+    display: block;
+    padding: 10px;
+    float: right;
+    margin-right: 90px;
+}
+
+.social span {
+    margin-right: 10px;
+}
+
+
+.owl-carousel {
+    margin-top: 50px;
+    background-color: #231307;
+    width: 200px;
+    height: 200px;
+    color: #fff;
+
+}
+
+.owl-carousel .item {
+    color: #fff;
+    background-color: #ddd;
+    width: 100px;
+    height: 100px;
+    
+}
+
