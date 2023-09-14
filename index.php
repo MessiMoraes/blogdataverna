@@ -6,16 +6,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 
-
-
-
-
     <?php wp_head(); ?>
 </head>
 <body>
     
     <header>
         <div class="logo">Logo</div>
+       
+       
         <?php
             if(has_nav_menu('primary')) {
                 wp_nav_menu(array(
@@ -28,24 +26,36 @@
             }
         
         ?>
+        
+        <div class="box">
 
-        <div class="social">
-            <span>Facebook</span>
-            <span>Instagram</span>
+            <div class="search">
+                Search
+            </div>
+            <div class="social">
+               Instagram
+            </div>
+
         </div>
 
-        <div class="search">Search</div>
-
-       
     </header>
 
-    <div class="owl-carousel owl-theme">
-        <div class="item"><h4>1</h4></div>
-        <div class="item"><h4>2</h4></div>
-        <div class="item"><h4>3</h4></div>
-        <div class="item"><h4>4</h4></div>
-        <div class="item"><h4>5</h4></div>
-    </div>
+    <section class="random-post">
+        <section>
+            <img src="" alt="">
+
+            <span>13/09/2023</span>
+            <span>Anime</span>
+
+            <h1>Title</h1>
+
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore eos quaerat molestiae expedita perspiciatis alias minus! Ut omnis adipisci eligendi accusantium alias ratione modi, fuga, et beatae sapiente distinctio doloremque?</p>
+
+
+        </section>
+
+    </section>
+
 
 
     <?php wp_footer(); ?>

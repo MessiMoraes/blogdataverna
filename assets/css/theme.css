@@ -6,24 +6,32 @@ body {
 }
 
 header {
-    height: 200px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 80px;
     background-color: #231307;
     padding: 10px;
 }
 
 .logo {
-    width: 400px;
+    width: 270px;
     height: 50px;
     background-color: #eee;
     text-align: center;
     line-height: 50px;
-    margin-left: 90px;
-    margin-top: 30px;
 }
 
+nav {
+    background-color: black;
+}
+
+
+nav
 .menu-principal {
     margin-top: 36px;
     margin-left: 90px;
+    
     
 }
 
@@ -34,7 +42,6 @@ header {
 
 .menu-principal li {
     float: left;
-    background-color: #333;
 }
 
 .menu-principal a {
@@ -45,43 +52,36 @@ header {
     
 }
 
+.menu-principal a:hover {
+    text-decoration: underline;
+}
+
+.box {
+    display: flex;
+}
+
+
 .search {
     color: #fff;
     background-color: #333;
-    float: right;
     padding: 10px;
-    margin-right: 50px;
+    margin-right: 10px;
 }
 
 
 .social {
     color: #fff;
     background-color: #333;
-    display: block;
+    display: inline-block;
     padding: 10px;
-    float: right;
-    margin-right: 90px;
+   
 }
 
 .social span {
-    margin-right: 10px;
+    /* margin-right: 10px; */
 }
 
 
-.owl-carousel {
-    margin-top: 50px;
-    background-color: #231307;
-    width: 200px;
-    height: 200px;
-    color: #fff;
 
-}
 
-.owl-carousel .item {
-    color: #fff;
-    background-color: #ddd;
-    width: 100px;
-    height: 100px;
-    
-}
 
